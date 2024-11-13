@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: chocolate;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.herobox {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+.heroboxsec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+}
+.images1 {
+  border-radius: 50%;
+}
+
+.images1 {
+  border-radius: 50%;
+}
+
+.images2 {
+  display: flex;
+  gap: 25px;
+}
+
+.about_Section {
+  background-image: url(./images/zzzzzz.jpg);
+  background-size: cover;
+  margin-top: 250px;
+  height: 900px;
+
+  h1 {
+    color: white;
+  }
+
+  .pin {
+    color: white;
+    text-align: center;
+    width: 60%;
+  }
+
+  button {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: grabbing;
+  }
+
+  button:hover {
+    background-color: black;
+    color: greenyellow;
+  }
+}
+
+.aboutus12 {
+  background-color: rgba(22, 19, 19, 0.422);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pholder {
+  width: 60%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  p {
+    text-align: center;
+    color: white;
+  }
+}
+
+.first {
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  padding: 20px;
+  gap: 15px;
+  margin-bottom: 20px;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.second {
+  color: black;
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.pep{
+    color: green;
+}
+
+.holdingbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.portfoliosection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  margin-top: 40px;
+
+  h1 {
+    display: flex;
+    margin-bottom: 20px;
+    color: gray;
+  }
+}
+
+.imageport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+  gap: 10px;
+
+  img {
+    width: 410px;
+  }
+}
+
+.finalsec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: gray;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.finalsec2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 20px; */
+}
+
+.finalsec3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  button {
+    color: black;
+    background-color: greenyellow;
+    width: 100px;
+    align-items: center;
+  }
+
+  button:hover {
+    color: greenyellow;
+    background-color: black;
+    width: 100px;
+  }
+}
+
+.inputt {
+  width: 600px;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid green;
+  outline: none;
+}
+
+.radioclass {
+  display: flex;
+  gap: 15px;
+}
+
+.inputor {
+  width: 90%;
+  height: 200px;
+  border: 2px solid green;
+  outline: none;
+}
+
+.check {
+  display: flex;
+  gap: 15px;
+}
+
+.lastcontent {
+  background-image: url(./images/zzzzzz.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  color: white;
+  margin-top: 80px;
+}
+
+.lastcontent1 {
+  background-color: rgba(0, 0, 255, 0.361);
+  height: 400px;
+  table {
+    border-color: white;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
