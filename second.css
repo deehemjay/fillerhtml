@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+}
+.header{
+
+    height: 100px;
+    background-color: rgb(29, 4, 84);
+}
+
+.first{
+    background-color: rgb(29, 4, 84);
+    height: 25px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 25px;
+    background-color:rgb(29, 4, 84);
+    color: white;
+
+    img{
+        border-radius: 50%;
+        height: 20px;
+        display: flex;
+    }
+}
+
+
+.third{
+display: flex;
+align-items: center;
+justify-content: end;
+background-color: orange;
+gap: 30px;
+right: 0px;
+position: absolute;
+height: 25px;
+width: 35%;
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+}
+
+.fourth{
+    height: 75px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+img{
+    height: 50px;
+}
+
+button{
+    right: 0px;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+}
+
+
+.fifth{
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.navbar:hover {
+    border-bottom: 4px solid orange;
+    padding-bottom: 10px;
+}
+
+.heroes{
+    width: 100%;
+    position: relative;
+    
+video{
+    width: 100%;
+    
+}
+
+}
+
+
+.sixth{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 700px;
+    margin-bottom: 20px;
+
+}
+
+.seventh{
+    background-color: white;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    h2{
+        display: flex;
+       font-display: 20px;
+       font-style: italic;
+       
+       
+    }
+}
+
+.eight{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.inside{
+    
+display: flex;
+flex-direction: column;
+background-color: white;
+height: 100px;
+width: 150px;
+align-items: center;
+justify-content: end;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+border-radius: 10px;
+h5{
+    margin-bottom: 10px;
+}
+
+
+img{
+    height: 50px;
+}
+
+}
+
+.inside:hover{
+
+    background: blueviolet;
+    color: white;
+}
+
+
+.ninth{
+    /* background-color: red; */
+    margin-top: 200px;
+    height: 500px;
+}
+
+
+.tenth{
+
+    /* background-color: blue; */
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+   
+}
+
+.eleventh{
+    /* background-color: green; */
+    height: 500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+img{
+width: 90%;
+        height: 350px;
+    position: relative;
+ }
+    
+}
+
+
+.solve{
+    background-color: white;
+    width: 15%;
+    height: 130px;
+    padding: 20px 35px 20px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    align-items: center;
+    margin-left: 250px;
+   top: 1250px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    h5{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+.twelth{
+    /* background-color: cadetblue; */
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 500px;
+
+    h3{
+        margin-top: 10px;
+    }
+
+    button{
+        background-color: blue;
+        color: white;
+        width: 120px;
+        height: 40px;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+    }
+
+
+
+    button:hover{
+        background-color: orange;
+        color: white;
+        cursor: pointer;
+    }
+
+    h1{
+        font-size: xx-large;
+    }
+
+}
+
+
+
+
+.stop{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    padding-left: 25px;
+}
+
+.stop1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+a{
+    color: black;
+}
+
+}
