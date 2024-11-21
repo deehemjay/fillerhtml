@@ -264,9 +264,217 @@
 }
 
 
+.footer{
+/* background-color: aqua; */
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
 
 
 
-@media screen {
+.footersecond{
+background-color: black;
+width: 90%;
+padding: 20px;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+gap: 30px;
+
+}
+
+
+.again{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+
+}
+
+.footeroutside{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 40px 30px 15px;
     
+
+    h3{
+        color: white;
+    }
+}
+
+.footerinside{
+display: flex;
+flex-direction: column;
+gap: 20px;
+a{
+    color: white;
+}
+
+
+
+}
+
+
+
+
+.inner{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+
+.footerthird{
+
+   
+    display: flex;
+    justify-content: space-between;
+   
+
+h5{
+    color: white;
+}
+
+}
+
+
+.footerfirst{
+
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width:500px) {
+
+
+
+    *{
+        overflow-x: hidden;
+    }
+
+
+    .herobox{
+
+        img{
+
+            height: 250px;
+        }
+        
+    }
+
+
+    .heroboxsec{
+
+      h1{
+        font-size: large;
+      }
+
+      p{
+        font-size: medium;
+      }
+
+      h4{
+        font-size: small;
+      }
+    }
+    .images1{
+            height: 125px;
+        }
+
+        .images2{
+            height: 20px;
+            gap: 15px;
+        }
+
+
+
+        .about_Section{
+            height: 1600px;
+        }
+
+        .class{
+            display: flex;
+            height: 500px;
+            
+        }
+
+
+        .holdingbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .images{
+            
+            img{
+             height: 40px;
+             
+            }
+        }
+        .second{
+            width: 70%;
+        }
+
+        .finalsec2{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+        }
+
+
+        .inputt{
+            width: 350px;
+        }
+
+
+      .lastcontent2{
+        table{
+            width: 100%;
+        }
+      }
+      .lastcontent1{
+        h1{
+            font-size: medium;
+        }
+      }
+
+
+
+      .again{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .footerthird{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 10px;
+        h5{
+            font-size: small;
+        }
+
+        img{
+            width: 150px;
+        }
+       
+      }
+
+    .ins{
+        display: flex;
+        gap: 20px;
+        img{
+            border-radius: 50%;
+            width: 20px;
+        }
+    }
 }
